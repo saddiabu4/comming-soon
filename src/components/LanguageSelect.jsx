@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-import uzLan from '../assets/uzLan.png'
-import ruLan from '../assets/ruLan.png'
-import enLan from '../assets/enLan.png'
+import uzLan from '../assets/uz.png'
+import ruLan from '../assets/ru.png'
+import enLan from '../assets/en.png'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 const LanguageSelect = ({ onChange, value }) => {
